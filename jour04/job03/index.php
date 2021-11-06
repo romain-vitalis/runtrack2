@@ -11,7 +11,6 @@ Formulaire html
 if(isset($_POST['nom']) == TRUE){
    
     echo 'il y a 3 valeurs';
-
 }
 ?>
 <form action="#" method="POST">
