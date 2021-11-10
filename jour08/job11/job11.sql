@@ -1,1 +1,1 @@
-SELECT SUM(superficie)FROM salles
+SELECT SUM(capacite)FROM salles
