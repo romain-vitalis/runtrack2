@@ -29,15 +29,12 @@ $res= mysqli_fetch_all($req);
         {
             echo "<tr>";
             foreach($value as $key1 => $value1){
-                echo '
+                echo '<td>'.$value1.'</td>'; 
             
-                <td>'.$value1.'</td>
-        
-                ';   
-            }
+             }
           echo "</tr>";
         }
 
-        ?>
+    ?>
 
     </tbody>
