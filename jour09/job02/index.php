@@ -7,7 +7,6 @@ $req= mysqli_query($bdd,"SELECT nom,capacite FROM salles");
 $res= mysqli_fetch_all($req);
 
 
-var_dump($res);
 
 
 ?>

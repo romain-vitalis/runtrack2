@@ -7,7 +7,7 @@ $req= mysqli_query($bdd,"SELECT prenom,nom,naissance FROM etudiants WHERE sexe='
 $res= mysqli_fetch_all($req);
 
 
-var_dump($res);
+
 
 
 ?>

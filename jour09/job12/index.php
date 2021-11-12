@@ -8,7 +8,6 @@ $req= mysqli_query($bdd,"SELECT * FROM etudiants WHERE naissance BETWEEN '1998-0
 $res= mysqli_fetch_all($req);
 
 
-var_dump($res);
 
 
 ?>

@@ -8,7 +8,7 @@ $req= mysqli_query($bdd,"SELECT COUNT(*) FROM etudiants");
 $res= mysqli_fetch_all($req);
 
 
-var_dump($res);
+
 
 
 ?>

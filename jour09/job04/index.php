@@ -8,7 +8,7 @@ $req= mysqli_query($bdd,"SELECT * FROM etudiants WHERE prenom LIKE'T%'");
 $res= mysqli_fetch_all($req);
 
 
-var_dump($res);
+
 
 
 ?>

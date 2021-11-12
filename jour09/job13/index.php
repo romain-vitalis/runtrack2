@@ -7,7 +7,7 @@ $req= mysqli_query($bdd,"SELECT salles.nom,etage.nom FROM salles INNER JOIN etag
 $res= mysqli_fetch_all($req);
 
 
-var_dump($res);
+
 
 
 ?>
@@ -17,7 +17,7 @@ var_dump($res);
     <thead>
         <tr>
             <th>Nom</th>
-            <th>etage</th>
+            <th>etage </th>
            
             
         </tr>
@@ -29,11 +29,11 @@ var_dump($res);
         {
             echo "<tr>";
             foreach($value as $key1 => $value1){
-                echo '
+                echo '<td>'.$value1.'</td>'; 
             
-                <td>'.$value1.'</td>
+                  
         
-                ';   
+                
             }
           echo "</tr>";
         }

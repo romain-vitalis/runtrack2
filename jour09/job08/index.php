@@ -8,7 +8,7 @@ $req= mysqli_query($bdd,"SELECT * FROM salles ORDER BY capacite DESC");
 $res= mysqli_fetch_all($req);
 
 
-var_dump($res);
+
 
 
 ?>
