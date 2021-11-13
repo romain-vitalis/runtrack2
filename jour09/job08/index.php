@@ -3,7 +3,7 @@
 $bdd = mysqli_connect("localhost","root","","jour08");
 
 
-$req= mysqli_query($bdd,"SELECT * FROM salles ORDER BY capacite DESC");
+$req= mysqli_query($bdd,"SELECT SUM(capacite)FROM salles");
 
 $res= mysqli_fetch_all($req);
 
